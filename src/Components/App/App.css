@@ -1,3 +1,15 @@
 body {
   background-color: #FEFEFA;
 }
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+   color: black;
+}
+
+.home-link-btn {
+  font-family: 'Newsreader', serif;
+}
