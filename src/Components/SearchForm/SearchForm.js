@@ -2,16 +2,23 @@ import React, { useState, useEffect } from "react";
 import './SearchForm.css';
 
 
-const SearchForm = ({ onChange }) => {
-    
+const SearchForm = ({ onChange, userSearch }) => {
+
+const clearSearch = () => {
+    userSearch('')
+}
+
     return (
         <div className='search-form-container'>
-            <input
-                className='search-container'
-                type='search'
-                placeholder= 'Search by Article Title'
-                onChange={onChange}
-            />
+            <form className='search-form'>
+                <input
+                    className='search-container'
+                    type='search'
+                    placeholder= 'Search by Article Title'
+                    onChange={onChange}
+                />
+                <button className='clear' onClick={() => clearSearch()}>Clear</button>
+            </form>
         </div>
     )
 }

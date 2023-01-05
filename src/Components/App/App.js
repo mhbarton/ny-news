@@ -16,7 +16,12 @@ const [loading, setLoading] = useState(false);
 const [error, setError] = useState(false);
 
 let location = useLocation()
-const homeLink = location.pathname !== "/" && <Link data-cy="return-home-text" to="/">Return to Top Stories</Link>
+const homeLink = location.pathname !== "/" && <Link data-cy="return-home-text" to="/"><button className='home-btn' onClick={() => clearSearch()}>Return to Top Stories</button></Link>
+
+
+const clearSearch = () => {
+  setUserSearch('')
+}
 
 const findArticle = (publishDate) => {
   return articles.filter((article) => {
@@ -61,7 +66,7 @@ useEffect(() => {
        />
         <Route exact path='/' render={() => (
           <div>
-            <SearchForm onChange={searchArticles}/>
+            <SearchForm onChange={searchArticles} userSearch={userSearch}/>
             <Articles articles={articles} userSearch={userSearch}/>
           </div>
           )}

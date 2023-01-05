@@ -15,7 +15,7 @@ const year = article[0].published_date.slice(0, 4);
             <img className="single-article-image" src={article[0].multimedia[1].url} alt="corresponding article image"/>
             <p className='single-article-details'>{article[0].multimedia[1].caption}</p>
             <p>{article[0].abstract}</p>
-            <a className='single-article-short-url' href={article[0].short_url}>Click to read the full article</a>
+            <a className='single-article-short-url' href={article[0].short_url} target='_blank'>Click to read the full article</a>
         </div>
     )
 }

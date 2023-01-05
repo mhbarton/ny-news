@@ -1,6 +1,7 @@
 import React from "react";
 import './Articles.css'
 import ArticleCard from '../ArticleCard/ArticleCard';
+import nytSymbol from '../../Images/Symbol-New-York-Times.webp'
 
 
 const Articles = ( { articles, userSearch }) => {
@@ -17,12 +18,12 @@ let displayArticles;
                 <ArticleCard
                     key={article.uri}
                     id={article.uri}
-                    image={article.multimedia[1].url}
+                    image={!article.multimedia ? nytSymbol : article.multimedia[1].url}
                     title={article.title}
                     byline={article.byline}
                     date={article.published_date}
                     section={article.section}
-                    caption={article.multimedia[1].caption}
+                    // caption={article.multimedia[1].caption}
                 />
             )   
         })
