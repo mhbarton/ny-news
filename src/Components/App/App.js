@@ -10,7 +10,8 @@ import SearchForm from '../SearchForm/SearchForm';
 function App() {
 
 const [articles, setArticles] = useState([]);
-const [filteredArticles, setFilteredArticles] = useState([])
+const [userSearch, setUserSearch] = useState('');
+const [searchResults, setSearchResults] = useState([]);
 const [loading, setLoading] = useState(false);
 const [error, setError] = useState(false);
 
@@ -23,8 +24,9 @@ const findArticle = (publishDate) => {
   });
 };
 
-const filterArticles = (userSearch) => {
-  const search = articles.result
+const searchArticles = (event) => {
+  const search = event.target.value.toLowerCase();
+  setUserSearch(search);
 }
 
 useEffect(() => {
@@ -36,6 +38,13 @@ useEffect(() => {
 });
 setLoading(false)
 }, []);
+
+useEffect(() => {
+  const newSearchedArticles = articles.filter((article) =>
+    article.title.toLowerCase().includes(userSearch)
+  );
+  setSearchResults(newSearchedArticles);
+}, [userSearch]);
 
   return (
     <main className='app-container'>
@@ -52,8 +61,8 @@ setLoading(false)
        />
         <Route exact path='/' render={() => (
           <div>
-            <SearchForm />
-            <Articles articles={articles}/>
+            <SearchForm onChange={searchArticles}/>
+            <Articles articles={articles} userSearch={userSearch}/>
           </div>
           )}
         />

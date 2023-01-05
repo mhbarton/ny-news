@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import './SearchForm.css';
 
 
-const SearchForm = () => {
+const SearchForm = ({ onChange }) => {
+    
     return (
         <div className='search-form-container'>
-            
+            <input
+                className='search-container'
+                type='search'
+                placeholder= 'Search by Article Title'
+                onChange={onChange}
+            />
         </div>
     )
 }
