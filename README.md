@@ -21,7 +21,7 @@ Learning Goals for this project included:
 ✔️ An ability to prioritize for an MVP<br>
 ✔️ Writing clean, well thought out code <br>
 
-[Project Rubric](https://mod4.turing.edu/projects/take_home/)
+[Project Rubric](https://mod4.turing.edu/projects/take_home/) |
 [Project Spec](https://mod4.turing.edu/projects/take_home/take_home_fe)
 
 ## Demo
