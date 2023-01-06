@@ -35,7 +35,7 @@ Learning Goals for this project included:
 ![Single Article View](https://user-images.githubusercontent.com/102000070/210942659-94eecdc8-bb3c-4a7f-85c1-d677ef842aba.gif)
 
 ## Accessibility
-<h3 align="center">Lighthouse accessibility score of 100%</h3>
+#### Lighthouse accessibility score of 100%
 ![Lighthouse Audit](https://user-images.githubusercontent.com/102000070/210941535-4b06b7ff-68f5-4277-87e1-2d88ac9d13fa.jpeg)
 
 ## Setup
