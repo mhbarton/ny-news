@@ -41,7 +41,7 @@ Learning Goals for this project included:
 ## Setup
 - Clone the repository to your local machine
 - `cd` into the repository
-- Make sure the necessary dependencies are installed on your local machine (`react-router-dom`, `react-stars`, `react-micro-modal`)
+- Make sure the necessary dependencies are installed on your local machine (`react-router-dom`, `cypress`)
 - Once the necessary dependencies are installed, `cd` back into the root of the repository, and run `npm start`
 - Happy coding!
 
