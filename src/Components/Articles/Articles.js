@@ -23,7 +23,7 @@ let displayArticles;
                     byline={article.byline}
                     date={article.published_date}
                     section={article.section}
-                    // caption={article.multimedia[1].caption}
+                    caption={article.multimedia[1].caption}
                 />
             )   
         })

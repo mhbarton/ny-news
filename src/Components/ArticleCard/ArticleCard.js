@@ -14,7 +14,7 @@ const capitalizedSection = section.charAt(0).toUpperCase() + section.slice(1)
             <div className='card'>
                 <h2 className='article-section'>{capitalizedSection}</h2>
                 <img className='article-image' src={image} alt='corresponding article image' />
-                <h2>{title}</h2>
+                <h2 className='article-title'>{title}</h2>
                 <p className='article-card-details'>{byline}</p>
                 <p className='article-card-details'>Published: {`${month}/${day}/${year}`}</p>
             </div>
