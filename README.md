@@ -25,33 +25,29 @@ Learning Goals for this project included:
 [Project Spec](https://mod4.turing.edu/projects/take_home/take_home_fe)
 
 ## Demo
+<h3 align="center">Landing Page</h3>
 ![Main View](https://user-images.githubusercontent.com/102000070/210942252-7b696757-c23b-4f4b-864a-54bfc0c1b99a.gif)
 
-![Search View](https://user-images.githubusercontent.com/102000070/210942409-5c2805af-5baf-4bad-924d-1c2970607e4a.gif)
+<h3 align="center">Search Functionality</h3>
+![Search View](https://user-images.githubusercontent.com/102000070/211053771-27a44ccd-2f77-4a1c-b141-2c5a98fc9b96.gif)
 
+<h3 align="center">Single Article Page</h3>
 ![Single Article View](https://user-images.githubusercontent.com/102000070/210942659-94eecdc8-bb3c-4a7f-85c1-d677ef842aba.gif)
 
 ## Accessibility
+<h3 align="center">Lighthouse accessibility score of 100%</h3>
 ![Lighthouse Audit](https://user-images.githubusercontent.com/102000070/210941535-4b06b7ff-68f5-4277-87e1-2d88ac9d13fa.jpeg)
 
 ## Setup
-1. From your terminal, `cd` back to your parent directory
-2. Clone down this repository:
-  ```
- https://github.com/mhbarton/ny-news
-  ```
-3. `cd` into `take-home` directory and run:
-  ```
-  npm install
-  npm start
-  ```
-4. Enter the following url in your browser: http://localhost:3000/
+- Clone the repository to your local machine
+- `cd` into the repository
+- Make sure the necessary dependencies are installed on your local machine (`react-router-dom`, `react-stars`, `react-micro-modal`)
+- Once the necessary dependencies are installed, `cd` back into the root of the repository, and run `npm start`
+- Happy coding!
 
 ## Future Features
-- [x] Adding and deleting followers
-- [x] Add a Google map API to locate how far a book is for exchage
-- [x] Message a user if a bookmarked is avaiable for borrowing
-- [ ] Alert the user if a bookmarked book that was previously unavailable is now available
+- [ ] Add a navigation bar at the top which would sort articles by section
+- [ ] Modible responsiveness
 
 ## Dev Notes
 ### Wins
@@ -59,7 +55,7 @@ Learning Goals for this project included:
 - [x] 100% Accessibility
 - [X] Problem solving
 
-### Opportunities for growth
+### Opportunities for Growth
 - [x] Understanding useContext hook
 - [x] Better responsiveness
 
