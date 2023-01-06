@@ -47,7 +47,7 @@ Learning Goals for this project included:
 
 ## Future Features
 - [ ] Add a navigation bar at the top which would sort articles by section
-- [ ] Modible responsiveness
+- [ ] Mobile responsiveness
 
 ## Dev Notes
 ### Wins
