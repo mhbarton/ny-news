@@ -17,7 +17,7 @@ const clearSearch = () => {
                     placeholder= 'Search by Article Title'
                     onChange={onChange}
                 />
-                <button className='clear' onClick={() => clearSearch()}>Clear</button>
+                <button className='clear-btn' onClick={() => clearSearch()}>Clear</button>
             </form>
         </div>
     )

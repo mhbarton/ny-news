@@ -1,0 +1,171 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2023 The New York Times Company. All Rights Reserved.",
+    "section": "home",
+    "last_updated": "2023-01-05T14:00:01-05:00",
+    "num_results": 34,
+    "results": [
+    {
+    "section": "us",
+    "subsection": "politics",
+    "title": "Live Vote Count: Tracking the House Speaker Votes",
+    "abstract": "Follow live to see how each representative voted for House speaker on each ballot.",
+    "url": "https://www.nytimes.com/interactive/2023/01/04/us/politics/house-speaker-vote-tally.html",
+    "uri": "nyt://interactive/bbcc471e-25a5-52d9-8948-19cba3a5ab04",
+    "byline": "By Allison McCartney, Alicia Parlapiano and Emily Cochrane",
+    "item_type": "Interactive",
+    "updated_date": "2023-01-05T13:55:16-05:00",
+    "created_date": "2023-01-04T12:31:47-05:00",
+    "published_date": "2023-01-04T12:31:47-05:00",
+    "material_type_facet": "",
+    "kicker": "",
+    "des_facet": [ ],
+    "org_facet": [
+    "House of Representatives",
+    "Republican Party",
+    "Democratic Party"
+    ],
+    "per_facet": [
+    "McCarthy, Kevin (1965- )"
+    ],
+    "geo_facet": [ ],
+    "multimedia": [
+    {
+    "url": "https://static01.nyt.com/images/2023/01/04/us/house-speaker-vote-tally-promo/house-speaker-vote-tally-promo-superJumbo.jpg",
+    "format": "Super Jumbo",
+    "height": 1333,
+    "width": 2000,
+    "type": "image",
+    "subtype": "photo",
+    "caption": "",
+    "copyright": ""
+    },
+    {
+    "url": "https://static01.nyt.com/images/2023/01/04/us/house-speaker-vote-tally-promo/house-speaker-vote-tally-promo-threeByTwoSmallAt2X.jpg",
+    "format": "threeByTwoSmallAt2X",
+    "height": 600,
+    "width": 600,
+    "type": "image",
+    "subtype": "photo",
+    "caption": "",
+    "copyright": ""
+    },
+    {
+    "url": "https://static01.nyt.com/images/2023/01/04/us/house-speaker-vote-tally-promo/house-speaker-vote-tally-promo-thumbLarge.jpg",
+    "format": "Large Thumbnail",
+    "height": 150,
+    "width": 150,
+    "type": "image",
+    "subtype": "photo",
+    "caption": "",
+    "copyright": ""
+    }
+    ],
+    "short_url": "https://nyti.ms/3CmBDFI"
+    },
+    {
+    "section": "us",
+    "subsection": "politics",
+    "title": "The Republican divide plays out in conservative news outlets.",
+    "abstract": "While much of the commentary has supported Representative Kevin McCarthy, others have backed the group of Republicans blocking him from becoming speaker.",
+    "url": "https://www.nytimes.com/live/2023/01/05/us/house-speaker-vote/the-republican-divide-plays-out-in-conservative-news-outlets",
+    "uri": "nyt://article/b6c25fee-e61a-5506-9eb4-09decfc871bc",
+    "byline": "By Jeremy W. Peters",
+    "item_type": "Article",
+    "updated_date": "2023-01-05T11:57:09-05:00",
+    "created_date": "2023-01-05T11:57:09-05:00",
+    "published_date": "2023-01-05T11:57:09-05:00",
+    "material_type_facet": "",
+    "kicker": "",
+    "des_facet": [ ],
+    "org_facet": [ ],
+    "per_facet": [ ],
+    "geo_facet": [ ],
+    "multimedia": [
+    {
+    "url": "https://static01.nyt.com/images/2023/01/05/multimedia/05house-speaker-vote-media-response-1-9fb3/05house-speaker-vote-media-response-1-9fb3-superJumbo.jpg",
+    "format": "Super Jumbo",
+    "height": 1365,
+    "width": 2048,
+    "type": "image",
+    "subtype": "photo",
+    "caption": "The Fox News host Sean Hannity has sharply criticized the Republican House members opposing Kevin McCarthy.",
+    "copyright": "Doug Mills/The New York Times"
+    },
+    {
+    "url": "https://static01.nyt.com/images/2023/01/05/multimedia/05house-speaker-vote-media-response-1-9fb3/05house-speaker-vote-media-response-1-9fb3-threeByTwoSmallAt2X.jpg",
+    "format": "threeByTwoSmallAt2X",
+    "height": 400,
+    "width": 600,
+    "type": "image",
+    "subtype": "photo",
+    "caption": "The Fox News host Sean Hannity has sharply criticized the Republican House members opposing Kevin McCarthy.",
+    "copyright": "Doug Mills/The New York Times"
+    },
+    {
+    "url": "https://static01.nyt.com/images/2023/01/05/multimedia/05house-speaker-vote-media-response-1-9fb3/05house-speaker-vote-media-response-1-9fb3-thumbLarge.jpg",
+    "format": "Large Thumbnail",
+    "height": 150,
+    "width": 150,
+    "type": "image",
+    "subtype": "photo",
+    "caption": "The Fox News host Sean Hannity has sharply criticized the Republican House members opposing Kevin McCarthy.",
+    "copyright": "Doug Mills/The New York Times"
+    }
+    ],
+    "short_url": "https://nyti.ms/3WKmNky"
+    },
+    {
+    "section": "us",
+    "subsection": "politics",
+    "title": "Who is Byron Donalds, the latest McCarthy alternative?",
+    "abstract": "",
+    "url": "https://www.nytimes.com/live/2023/01/05/us/house-speaker-vote/who-is-byron-donalds-the-latest-mccarthy-alternative",
+    "uri": "nyt://article/6970ef75-d892-58a5-bb2c-f4cab21e319c",
+    "byline": "By Maggie Astor",
+    "item_type": "Article",
+    "updated_date": "2023-01-05T12:53:05-05:00",
+    "created_date": "2023-01-05T12:53:05-05:00",
+    "published_date": "2023-01-05T12:53:05-05:00",
+    "material_type_facet": "",
+    "kicker": "",
+    "des_facet": [ ],
+    "org_facet": [ ],
+    "per_facet": [ ],
+    "geo_facet": [ ],
+    "multimedia": [
+    {
+    "url": "https://static01.nyt.com/images/2023/01/04/multimedia/04house-speaker-vote-donalds-1-5a2e/04house-speaker-vote-donalds-1-5a2e-superJumbo.jpg",
+    "format": "Super Jumbo",
+    "height": 1365,
+    "width": 2048,
+    "type": "image",
+    "subtype": "photo",
+    "caption": "Representative Byron Donalds of Florida has become the latest rallying figure for Republicans opposed to Kevin McCarthy’s speaker bid.",
+    "copyright": "Shuran Huang for The New York Times"
+    },
+    {
+    "url": "https://static01.nyt.com/images/2023/01/04/multimedia/04house-speaker-vote-donalds-1-5a2e/04house-speaker-vote-donalds-1-5a2e-threeByTwoSmallAt2X.jpg",
+    "format": "threeByTwoSmallAt2X",
+    "height": 400,
+    "width": 600,
+    "type": "image",
+    "subtype": "photo",
+    "caption": "Representative Byron Donalds of Florida has become the latest rallying figure for Republicans opposed to Kevin McCarthy’s speaker bid.",
+    "copyright": "Shuran Huang for The New York Times"
+    },
+    {
+    "url": "https://static01.nyt.com/images/2023/01/04/multimedia/04house-speaker-vote-donalds-1-5a2e/04house-speaker-vote-donalds-1-5a2e-thumbLarge.jpg",
+    "format": "Large Thumbnail",
+    "height": 150,
+    "width": 150,
+    "type": "image",
+    "subtype": "photo",
+    "caption": "Representative Byron Donalds of Florida has become the latest rallying figure for Republicans opposed to Kevin McCarthy’s speaker bid.",
+    "copyright": "Shuran Huang for The New York Times"
+    }
+    ],
+    "short_url": "https://nyti.ms/3IlWdtM"
+    }
+]
+}

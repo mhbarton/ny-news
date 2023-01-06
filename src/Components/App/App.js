@@ -16,7 +16,7 @@ const [loading, setLoading] = useState(false);
 const [error, setError] = useState(false);
 
 let location = useLocation()
-const homeLink = location.pathname !== "/" && <Link data-cy="return-home-text" to="/"><button className='home-btn' onClick={() => clearSearch()}>Return to Top Stories</button></Link>
+const homeLink = location.pathname !== "/" && <Link data-cy="return-home-text" to="/" onClick={() => clearSearch()}>Return to Top Stories</Link>
 
 
 const clearSearch = () => {
