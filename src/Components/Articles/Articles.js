@@ -5,7 +5,7 @@ import nytSymbol from '../../Images/Symbol-New-York-Times.webp'
 
 
 const Articles = ( { articles, userSearch }) => {
-    
+
 let displayArticles;
     if(userSearch !== ''){
         displayArticles = articles.filter((article) => article.title.toLowerCase().startsWith(userSearch))
@@ -23,7 +23,7 @@ let displayArticles;
                     byline={article.byline}
                     date={article.published_date}
                     section={article.section}
-                    caption={article.multimedia[1].caption}
+                    // caption={article.multimedia[1].caption}
                 />
             )   
         })
