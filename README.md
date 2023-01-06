@@ -25,13 +25,13 @@ Learning Goals for this project included:
 [Project Spec](https://mod4.turing.edu/projects/take_home/take_home_fe)
 
 ## Demo
-<h3 align="center">Landing Page</h3>
+#### Landing Page
 ![Main View](https://user-images.githubusercontent.com/102000070/210942252-7b696757-c23b-4f4b-864a-54bfc0c1b99a.gif)
 
-<h3 align="center">Search Functionality</h3>
+#### Search Functionality
 ![Search View](https://user-images.githubusercontent.com/102000070/211053771-27a44ccd-2f77-4a1c-b141-2c5a98fc9b96.gif)
 
-<h3 align="center">Single Article Page</h3>
+#### Single Article View
 ![Single Article View](https://user-images.githubusercontent.com/102000070/210942659-94eecdc8-bb3c-4a7f-85c1-d677ef842aba.gif)
 
 ## Accessibility
