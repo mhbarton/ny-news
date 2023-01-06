@@ -59,7 +59,6 @@ useEffect(() => {
         <h3 className='home-link-btn'>{homeLink}</h3>
       </div>
       <Switch>
-      {/* {loading === true && <p className="apple-loader-text"> Loading your sour apples...</p>} */}
         <Route exact path='/:date' render={( {match} ) => {
           const chosenArticle = findArticle(match.params.date);
           return <SingleArticle article={chosenArticle}/> 

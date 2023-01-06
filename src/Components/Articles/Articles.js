@@ -5,7 +5,7 @@ import nytSymbol from '../../Images/Symbol-New-York-Times.webp'
 
 
 const Articles = ( { articles, userSearch }) => {
-    console.log('array of articles', articles)
+    
 let displayArticles;
     if(userSearch !== ''){
         displayArticles = articles.filter((article) => article.title.toLowerCase().startsWith(userSearch))
