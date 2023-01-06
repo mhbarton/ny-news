@@ -6,6 +6,7 @@ import Header from '../Header/Header';
 import Articles from '../Articles/Articles';
 import SingleArticle from '../SingleArticle/SingleArticle';
 import SearchForm from '../SearchForm/SearchForm';
+import Status404 from '../ErrorHandling/Status404/Status404';
 
 function App() {
 
@@ -71,6 +72,7 @@ useEffect(() => {
           </div>
           )}
         />
+        <Route component={Status404} />
       </Switch>
     </main>
   );

@@ -30,7 +30,7 @@ let displayArticles;
 
     return (
         <div className='all-articles-container'> 
-            {articleData.length ? articleData : <h3 className='search-error-message'>Oops! No matching articles found. Please try again!</h3>}
+            {articleData.length ? articleData : <h3 className='search-error-message'>Bad News! No articles have been found. Please try again.</h3>}
         </div>
 
     )

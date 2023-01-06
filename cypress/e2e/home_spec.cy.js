@@ -1,6 +1,6 @@
 describe('Home page view flows', () => {
   beforeEach(() => {
-    cy.intercept('GET', 'https://api.nytimes.com/svc/topstories/v2/home.json?api-key=8QpQ5HPMwd3rzuHyUhl2eNb1PZZw3frg', {
+    cy.intercept('GET', 'https://api.nytimes.com/svc/topstories/v2/home.json?api-key=OGnTAy6cJkvjjUJQuzBWYu0nOu9GO0iP', {
       fixture: 'articles.json'
     }).as('sampleArticles')
     cy.visit("http://localhost:3000/")
@@ -33,7 +33,7 @@ describe('Home page view flows', () => {
   it('Should show an error message if the response is not ok', () => {
     cy.intercept({
         method: 'GET',
-        url: 'https://api.nytimes.com/svc/topstories/v2/home.json?api-key=8QpQ5HPMwd3rzuHyUhl2eNb1PZZw3frg'
+        url: 'https://api.nytimes.com/svc/topstories/v2/home.json?api-key=OGnTAy6cJkvjjUJQuzBWYu0nOu9GO0iP'
       },
       {
         statusCode: 401,
